@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>workspace-walking-robyn-0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 20:32:31</sys_created_on>
+        <sys_id>48cf163c7920021085bea98ac0c79509</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Workspace Walking Robyn 0</sys_name>
+        <sys_package display_value="Walking Robyn" source="x_1318092_walkin_0">e594fad24710021054171af2e16d430f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Walking Robyn">e594fad24710021054171af2e16d430f</sys_scope>
+        <sys_update_name>sys_ui_view_48cf163c7920021085bea98ac0c79509</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:32:43</sys_updated_on>
+        <title>Workspace Walking Robyn 0</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

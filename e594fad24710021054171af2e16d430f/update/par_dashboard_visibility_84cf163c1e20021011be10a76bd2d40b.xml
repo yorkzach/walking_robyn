@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="Walking Robyn">80cf163c37200210ae102bc78805640c</dashboard>
+        <experience/>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 20:32:29</sys_created_on>
+        <sys_id>84cf163c1e20021011be10a76bd2d40b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Walking Robyn" source="x_1318092_walkin_0">e594fad24710021054171af2e16d430f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Walking Robyn">e594fad24710021054171af2e16d430f</sys_scope>
+        <sys_update_name>par_dashboard_visibility_84cf163c1e20021011be10a76bd2d40b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:32:29</sys_updated_on>
+    </par_dashboard_visibility>
+</record_update>

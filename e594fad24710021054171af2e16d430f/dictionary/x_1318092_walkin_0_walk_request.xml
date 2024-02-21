@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="146cbada4710021054171af2e16d43d8" label="Walk Request" max_length="40" name="x_1318092_walkin_0_walk_request" text_index="true" type="collection">
+        <element label="Comments" max_length="1000" name="comments" type="string"/>
+        <element label="Cost" max_length="40" name="cost" type="float"/>
+        <element label="Dog" mandatory="true" max_length="1024" name="dog" reference="x_1318092_walkin_0_dog" reference_qual="ownerSAMEASowner" reference_qual_condition="ownerSAMEASowner" type="glide_list"/>
+        <element choice="3" default="30 min&#10;" label="Duration" mandatory="true" max_length="40" name="duration" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="30 min" sequence="0" value="min"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Owner" mandatory="true" max_length="32" name="owner" reference="x_1318092_walkin_0_dog_owner" type="reference"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Denied" sequence="3" value="denied"/>
+            </choice>
+        </element>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Time" mandatory="true" max_length="255" name="time" type="glide_date_time" use_dynamic_default="true"/>
+        <element label="Walker" max_length="32" name="walker" reference="x_1318092_walkin_0_dog_walker" type="reference"/>
+        <element label="Walk Duration" max_length="40" name="walk_duration" type="float"/>
+        <element label="Walk Finished" max_length="40" name="walk_finished" type="glide_date_time"/>
+        <element label="Walk Started" max_length="40" name="walk_started" type="glide_date_time"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+        <index name="index2">
+            <element name="walker"/>
+        </index>
+    </element>
+</database>

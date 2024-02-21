@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="walking-robyn Search Profile">40cf163c372002105f6aca031c139313</profile>
+        <search_source display_value="Walk Request">62cfd63c4720021054171af2e16d43e9</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 20:32:39</sys_created_on>
+        <sys_id>66cfd63c4720021054171af2e16d43fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>walking-robyn Search Profile.Walk Request</sys_name>
+        <sys_package display_value="Walking Robyn" source="x_1318092_walkin_0">e594fad24710021054171af2e16d430f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Walking Robyn">e594fad24710021054171af2e16d430f</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_66cfd63c4720021054171af2e16d43fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:32:39</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>
