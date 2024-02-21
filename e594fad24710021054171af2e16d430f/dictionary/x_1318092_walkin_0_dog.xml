@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5c987ed64710021054171af2e16d43cc" label="Dog" max_length="40" name="x_1318092_walkin_0_dog" text_index="true" type="collection">
+        <element label="Birthdate" mandatory="true" max_length="40" name="birthdate" type="glide_date"/>
+        <element choice="1" label="Breed" mandatory="true" max_length="40" name="breed" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Golden Retriever" sequence="0" value="golden_retriever"/>
+                <element inactive_on_update="false" label="Labrador" sequence="1" value="labrador"/>
+                <element inactive_on_update="false" label="Poodle" sequence="2" value="poodle"/>
+                <element inactive_on_update="false" label="Pug" sequence="3" value="pug"/>
+                <element inactive_on_update="false" label="German Shepherd" sequence="4" value="german_shepherd"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="Other"/>
+            </choice>
+        </element>
+        <element label="Comments" max_length="1000" name="comments" type="string"/>
+        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Other Breed" max_length="40" name="other_breed" type="string"/>
+        <element label="Owner" mandatory="true" max_length="32" name="owner" reference="x_1318092_walkin_0_dog_owner" type="reference"/>
+        <element label="Walks" max_length="32" name="walks" reference="x_1318092_walkin_0_walk_request" type="reference"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+        <index name="index2">
+            <element name="walks"/>
+        </index>
+    </element>
+</database>

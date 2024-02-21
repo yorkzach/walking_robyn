@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>User Preferences</description>
+        <name>chrome_preferences</name>
+        <page display_value="">cccf163caf200210b221a9b67f86f213</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 20:32:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>04cf163c8220021080332f99210db502</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_preferences</sys_name>
+        <sys_package display_value="Walking Robyn" source="x_1318092_walkin_0">e594fad24710021054171af2e16d430f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Walking Robyn">e594fad24710021054171af2e16d430f</sys_scope>
+        <sys_update_name>sys_ux_page_property_04cf163c8220021080332f99210db502</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:32:30</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1318092_walkin_0.cccf163caf200210b221a9b67f86f213.root.chrome_preferences</unique_name>
+        <value>[&#13;
+  "workspace.notifications.inbox.desktop",&#13;
+  "workspace.notifications.inbox.audio",&#13;
+  "workspace.notifications.chat.desktop",&#13;
+  "workspace.notifications.chat.audio",&#13;
+  "workspace.showRibbon",&#13;
+  "workspace.showAgentAssist",&#13;
+  "workspace.wrapListText",&#13;
+  "workspace.notifications.showPopups",&#13;
+  "workspace.notifications.showBadgeCount",&#13;
+  "rowcount",&#13;
+  "ts.match",&#13;
+  "glide.ui.accessibility",&#13;
+  "glide.ui.report.accessibility.patterns",&#13;
+  "glide.ui.date_format",&#13;
+  "list_export.deliveryType",&#13;
+  "list_export.orientationType",&#13;
+  "list_export.fileType",&#13;
+  "list_export.email"&#13;
+]</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Walking Robyn">e594fad24710021054171af2e16d430f</application>
+        <file_path/>
+        <instance_id>a619990cdbb23918caf99027c5961937</instance_id>
+        <instance_name>dev223255</instance_name>
+        <name>sys_ux_page_property_04cf163c8220021080332f99210db502</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>User Preferences</description><name>chrome_preferences</name><page display_value="">cccf163caf200210b221a9b67f86f213</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-21 20:32:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>04cf163c8220021080332f99210db502</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_preferences</sys_name><sys_package display_value="Walking Robyn" source="x_1318092_walkin_0">e594fad24710021054171af2e16d430f</sys_package><sys_policy/><sys_scope display_value="Walking Robyn">e594fad24710021054171af2e16d430f</sys_scope><sys_update_name>sys_ux_page_property_04cf163c8220021080332f99210db502</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-21 20:32:30</sys_updated_on><type>json</type><unique_name>x_1318092_walkin_0.cccf163caf200210b221a9b67f86f213.root.chrome_preferences</unique_name><value>[&#13;
+  "workspace.notifications.inbox.desktop",&#13;
+  "workspace.notifications.inbox.audio",&#13;
+  "workspace.notifications.chat.desktop",&#13;
+  "workspace.notifications.chat.audio",&#13;
+  "workspace.showRibbon",&#13;
+  "workspace.showAgentAssist",&#13;
+  "workspace.wrapListText",&#13;
+  "workspace.notifications.showPopups",&#13;
+  "workspace.notifications.showBadgeCount",&#13;
+  "rowcount",&#13;
+  "ts.match",&#13;
+  "glide.ui.accessibility",&#13;
+  "glide.ui.report.accessibility.patterns",&#13;
+  "glide.ui.date_format",&#13;
+  "list_export.deliveryType",&#13;
+  "list_export.orientationType",&#13;
+  "list_export.fileType",&#13;
+  "list_export.email"&#13;
+]</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>168444641</payload_hash>
+        <record_name>chrome_preferences</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 20:39:25</sys_created_on>
+        <sys_id>71516afc4720021054171af2e16d432c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dcd6503160000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:39:25</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>31516afcad20021089473a836db4d32c</update_guid>
+        <update_guid_history>31516afcad20021089473a836db4d32c:168444641</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 20:39:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>f85d1ece2d4d42c2a99a6d99725d2dd1</sys_id>
+        <sys_metadata>04cf163c8220021080332f99210db502</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_preferences</sys_name>
+        <sys_package display_value="Walking Robyn" source="x_1318092_walkin_0">e594fad24710021054171af2e16d430f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Walking Robyn">e594fad24710021054171af2e16d430f</sys_scope>
+        <sys_scope_delete display_value="">70c96edaba5747e09eca28d17e6f6981</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_04cf163c8220021080332f99210db502</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_04cf163c8220021080332f99210db502">71516afc4720021054171af2e16d432c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:39:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

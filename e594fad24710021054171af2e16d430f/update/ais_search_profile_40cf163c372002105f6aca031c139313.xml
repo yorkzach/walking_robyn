@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
+    <ais_search_profile action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>This is default AI Search profile for Walking Robyn</description>
+        <genius_result_assembly/>
+        <label>walking-robyn Search Profile</label>
+        <name>x_1318092_walkin_0_mafxypzr_search_profile</name>
+        <publish_id>4b4c2134-9876-4894-b059-58d398587ca4</publish_id>
+        <state>DRAFT</state>
+        <sys_class_name>ais_search_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 20:32:29</sys_created_on>
+        <sys_id>40cf163c372002105f6aca031c139313</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>walking-robyn Search Profile</sys_name>
+        <sys_package display_value="Walking Robyn" source="x_1318092_walkin_0">e594fad24710021054171af2e16d430f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Walking Robyn">e594fad24710021054171af2e16d430f</sys_scope>
+        <sys_update_name>ais_search_profile_40cf163c372002105f6aca031c139313</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:32:39</sys_updated_on>
+    </ais_search_profile>
+</record_update>

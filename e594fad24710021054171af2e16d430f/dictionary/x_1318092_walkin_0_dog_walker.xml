@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bdef36de4710021054171af2e16d4308" label="Dog Walker" max_length="40" name="x_1318092_walkin_0_dog_walker" text_index="true" type="collection">
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element label="Rate" max_length="40" name="rate" type="float"/>
+        <element label="Walks" max_length="32" name="walks" reference="x_1318092_walkin_0_walk_request" reference_qual="walkerSAMEASwalker" reference_qual_condition="walkerSAMEASwalker" type="reference"/>
+        <index name="index">
+            <element name="walks"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f6df32364710021054171af2e16d433b" label="Watch Request" max_length="40" name="x_1318092_walkin_0_watch_request" text_index="true" type="collection">
+        <element label="Comments" max_length="1000" name="comments" type="string"/>
+        <element label="Dog" max_length="32" name="dog" reference="x_1318092_walkin_0_dog" reference_qual="ownerSAMEASowner" reference_qual_condition="ownerSAMEASowner" type="glide_list"/>
+        <element choice="3" label="Duration" max_length="40" name="duration" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1 day" sequence="0" value="day"/>
+                <element inactive_on_update="false" label="1 week" sequence="3" value="week"/>
+            </choice>
+        </element>
+        <element choice="3" label="Frequency" max_length="40" name="frequency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1-2 times a day" sequence="0" value="2_times_a_day"/>
+                <element inactive_on_update="false" label="3-4 times a day" sequence="1" value="4_times_a_day"/>
+                <element inactive_on_update="false" label="5  times a day" sequence="2" value="times_a_day"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Owner" max_length="32" name="owner" reference="x_1318092_walkin_0_dog_owner" type="reference"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Time" max_length="40" name="time" type="glide_date_time" use_dynamic_default="true"/>
+        <element label="Walker" max_length="32" name="walker" reference="x_1318092_walkin_0_dog_walker" type="reference"/>
+        <index name="index">
+            <element name="dog"/>
+        </index>
+        <index name="index2">
+            <element name="owner"/>
+        </index>
+        <index name="index3">
+            <element name="walker"/>
+        </index>
+    </element>
+</database>
